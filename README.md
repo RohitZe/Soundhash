@@ -1,4 +1,4 @@
-<h1 align="center">SeekTune :musical_note:</h1>
+<h1 align="center">SoundHash :musical_note:</h1>
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1I2esH2U4DtXHsNgYbUi4OL-ukV5i_1PI/view" target="_blank">
@@ -24,23 +24,6 @@ Additionally, it currently only supports song files in WAV format.
 - FFmpeg: [Install FFmpeg](https://ffmpeg.org/download.html)
 - NPM: To run the client (frontend).
 
-### Steps
-📦 Clone the repository:
-```
-git clone https://github.com/cgzirim/seek-tune.git
-cd seek-tune
-```
-#### 🐳 Set Up with Docker
-Prerequisites: [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/)
-1. Build and run the application:
-   ```Bash
-   docker-compose up --build
-   ```
-   Visit the app at http://localhost:8080
-2. To stop the application:
-   ```Bash
-   docker-compose down
-   ```
 
 #### 🎧 Spotify API
 
@@ -119,7 +102,7 @@ $ go run *.go download https://open.spotify.com/track/4pqwGuGu34g8KtfN8LDGZm?si=
 Getting track info...
 Now, downloading track...
 Fingerprints saved in MongoDB successfully
-'Voilà' by 'André Rieu' was downloaded
+'Voilà' by 'Rohit' was downloaded
 Total tracks downloaded: 1
 ```
 
@@ -178,11 +161,10 @@ This application uses SQLite as the default database, but you can switch to Mong
 - [Creating Shazam in Java](https://www.royvanrijn.com/blog/2010/06/creating-shazam-in-java/)
 
 
-## Author :black_nib:
+## Author :Rohit:
 - Chigozirim Igweamaka
-  - Connect with me on [LinkedIn](https://www.linkedin.com/in/ichigozirim/).
-  - Check out my other [GitHub](https://github.com/cgzirim) projects.
-  - Follow me on [Twitter](https://twitter.com/cgzirim).
+  - Connect with me on [LinkedIn](https://www.linkedin.com/in/rohit-sharma-work/).
+  - Check out my other [GitHub](https://github.com/RohitZe) projects.
  
 ## License :lock:
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
